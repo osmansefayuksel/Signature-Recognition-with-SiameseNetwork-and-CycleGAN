@@ -19,7 +19,7 @@ In GANs, there are two different artificial neural networks competing with each 
 <br>
 <br>
 
-![Generative Adversarial Networks](https://github.com/osmansefayuksel/Automatic-Number-Plate-Recognition-with-YOLOV5/blob/main/results/train_batch2.jpg)
+![Generative Adversarial Networks](https://github.com/osmansefayuksel/Signature-Recognition-with-SiameseNetwork-and-CycleGAN/blob/main/images/fig1.png)
 
 <br>
 <br>
@@ -33,11 +33,11 @@ Signatures in real-world documents often contain noise-induced artifacts such as
 ## CycleGAN Result
 <br>
 
-![Input](https://github.com/osmansefayuksel/Automatic-Number-Plate-Recognition-with-YOLOV5/blob/main/results/train_batch2.jpg)
+![Input](https://github.com/osmansefayuksel/Signature-Recognition-with-SiameseNetwork-and-CycleGAN/blob/main/results/cyclegan/001_16_real.png)
 
 <br>
 
-![Output](https://github.com/osmansefayuksel/Automatic-Number-Plate-Recognition-with-YOLOV5/blob/main/results/train_batch2.jpg)
+![Output](https://github.com/osmansefayuksel/Signature-Recognition-with-SiameseNetwork-and-CycleGAN/blob/main/results/cyclegan/001_16_fake.png)
 
 <br>
 <br>
@@ -45,7 +45,7 @@ Signatures in real-world documents often contain noise-induced artifacts such as
 ## Siamese Network
 <br>
 
-![SigNet](https://github.com/osmansefayuksel/Automatic-Number-Plate-Recognition-with-YOLOV5/blob/main/results/train_batch2.jpg)
+![SigNet](https://github.com/osmansefayuksel/Signature-Recognition-with-SiameseNetwork-and-CycleGAN/blob/main/images/fig2.png)
 <br>
 <br>
 The input layer, i.e. the 11x11 convolution layer with ReLU, is shown in blue, while all the 3x3 and 5x5 convolution layers are shown in cyan and green, respectively. All local response normalization layers are shown in magenta, all maximum pooling layers are shown in brick color, and dropout layers are shown in gray. The last orange block represents the high-level feature output from the generating CNNs, which is combined with the loss function in the equation.
@@ -54,16 +54,20 @@ The input layer, i.e. the 11x11 convolution layer with ReLU, is shown in blue, w
 ## Final Result
 <br>
 
-![Recognition](https://github.com/osmansefayuksel/Automatic-Number-Plate-Recognition-with-YOLOV5/blob/main/results/train_batch2.jpg)
+![Recognition](https://github.com/osmansefayuksel/Signature-Recognition-with-SiameseNetwork-and-CycleGAN/blob/main/images/fig3.png)
 <br>
 
 
-![Difference Score](https://github.com/osmansefayuksel/Automatic-Number-Plate-Recognition-with-YOLOV5/blob/main/results/train_batch2.jpg)
+![Difference Score](https://github.com/osmansefayuksel/Signature-Recognition-with-SiameseNetwork-and-CycleGAN/blob/main/images/fig4.png)
 
 <br>
 <br>
 
-## [For Dataset](https://www.kaggle.com/datasets/aslanahmedov/number-plate-detection)
+## [CycleGAN](https://github.com/junyanz/CycleGAN)
+## [Dataset](https://www.kaggle.com/datasets/ishanikathuria/handwritten-signature-datasets)
+## [References](https://www.kaggle.com/code/surveshchauhan/gl-cv-week-siamese-network-signature-verification)
+## [SigNet Document](https://arxiv.org/abs/1707.02131v2)
+
 
 
 
