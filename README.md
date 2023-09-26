@@ -27,6 +27,7 @@ In GANs, there are two different artificial neural networks competing with each 
 ## Data Preprocessing for CycleGAN
 
 Signatures in real-world documents often contain noise-induced artifacts such as stamps/seals, text, and printed lines. These noise occurrences can affect the signature verification process. A noise cleansing method based on CycleGAN will be applied on the detected signatures to create noise-free signatures. The CycleGAN model is trained using the Kaggle Signature Dataset. Noisy signatures are generated from the dataset using OpenCV.
+
 <br>
 <br>
 
@@ -65,7 +66,8 @@ The input layer, i.e. the 11x11 convolution layer with ReLU, is shown in blue, w
 
 ## [CycleGAN](https://github.com/junyanz/CycleGAN)
 ## [Dataset](https://www.kaggle.com/datasets/ishanikathuria/handwritten-signature-datasets)
-## [References](https://www.kaggle.com/code/surveshchauhan/gl-cv-week-siamese-network-signature-verification)
+## [Reference 1](https://www.kaggle.com/code/surveshchauhan/gl-cv-week-siamese-network-signature-verification)
+## [Reference 2](https://github.com/amaljoseph/Signature-Verification_System_using_YOLOv5-and-CycleGAN)
 ## [SigNet Document](https://arxiv.org/abs/1707.02131v2)
 
 
